@@ -31,7 +31,7 @@ const spaces=[{image:"https://images.pexels.com/photos/159839/office-home-house-
       <Header  />
       <Hero image="https://images.pexels.com/photos/1045199/pexels-photo-1045199.jpeg"/>
       <SpaceTitle/>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-5 md:px-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:px-20 md:px-4 md:gap-2">
   {spaces.map((space, index) => (
     <Space
       key={index}

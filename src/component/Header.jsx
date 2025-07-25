@@ -8,7 +8,7 @@ export default function Header() {
     <div className="">
       <header className="w-full fixed shadow-xl z-10 bg-white h-25">
         <nav className="text-2xl flex justify-between items-center px-6 py-5 md:ml-4 lg:mr-40 lg:ml-50">
-          <div className="flex items-center gap-2 ">
+          <div className="flex items-center gap-2">
             <RiDashboardLine className="text-6xl text-primary-500/90" />
             <h2 className="text-4xl font-extrabold">
               Business <strong className="text-primary-800 font-extrabold">Cafe</strong>

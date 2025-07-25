@@ -29,30 +29,27 @@ const About = () => {
         </p>
       </div>
 
-      {/* Feature Cards and Image */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10 px-4">
-        {/* Left Column */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-20 md:m-40  px-4">
         <div className="text-center">
-          <div className="border border-neutral-200 p-10 mb-6 bg-primary-600/20">
+          <div className="border border-neutral-200 p-10 m-6 bg-primary-600/20">
             <SiBookstack className="text-6xl md:text-8xl bg-primary-600 rounded-full p-4 mx-auto" />
             <h2 className="text-2xl md:text-3xl font-extrabold p-4 capitalize">Creative space</h2>
             <span className="text-base md:text-xl font-extralight">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
           </div>
 
-          <div className="border border-neutral-200 p-10 mb-6 bg-primary-400/20">
+          <div className="border border-neutral-200 p-10 m-6 bg-primary-400/20">
             <SiBookstack className="text-6xl md:text-8xl bg-primary-600 rounded-full p-4 mx-auto" />
             <h2 className="text-2xl md:text-3xl font-extrabold p-4 capitalize">high speed wifi</h2>
             <span className="text-base md:text-xl font-extralight">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
           </div>
 
-          <div className="border border-neutral-200 p-10 mb-6 bg-primary-400/20">
+          <div className="border border-neutral-200 p-10 m-6 bg-primary-400/20">
             <SiBookstack className="text-6xl md:text-8xl bg-primary-600 rounded-full p-4 mx-auto" />
             <h2 className="text-2xl md:text-3xl font-extrabold p-4 capitalize">parking area</h2>
             <span className="text-base md:text-xl font-extralight">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
           </div>
         </div>
 
-        {/* Center Image */}
         <div>
           <img
             src="https://images.pexels.com/photos/245240/pexels-photo-245240.jpeg"
@@ -61,21 +58,20 @@ const About = () => {
           />
         </div>
 
-        {/* Right Column */}
-        <div className="text-center">
-          <div className="border border-neutral-200 p-10 mb-6 bg-primary-400/20">
+        <div className="text-center ">
+          <div className="border border-neutral-200 p-10 m-6 bg-primary-400/20">
             <SiBookstack className="text-6xl md:text-8xl bg-primary-600 rounded-full p-4 mx-auto" />
             <h2 className="text-2xl md:text-3xl font-extrabold p-4 capitalize">24/7 access</h2>
             <span className="text-base md:text-xl font-extralight">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
           </div>
 
-          <div className="border border-neutral-200 p-10 mb-6 bg-primary-400/20">
+          <div className="border border-neutral-200 p-10 m-6 bg-primary-400/20">
             <SiBookstack className="text-6xl md:text-8xl bg-primary-600 rounded-full p-4 mx-auto" />
             <h2 className="text-2xl md:text-3xl font-extrabold p-4 capitalize">great location</h2>
             <span className="text-base md:text-xl font-extralight">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
           </div>
 
-          <div className="border border-neutral-200 p-10 mb-6 bg-primary-400/20">
+          <div className="border border-neutral-200 p-10 m-6 bg-primary-400/20">
             <SiBookstack className="text-6xl md:text-8xl bg-primary-600 rounded-full p-4 mx-auto" />
             <h2 className="text-2xl md:text-3xl font-extrabold p-4 capitalize">outdoor space</h2>
             <span className="text-base md:text-xl font-extralight">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
@@ -97,6 +93,10 @@ const About = () => {
           <p className="text-lg md:text-xl font-bold max-w-5xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ea quaerat veritatis expedita earum, quidem beatae saepe nobis molestias excepturi? Tempora necessitatibus quo veniam quas error dicta officiis quidem non! Ullam impedit, reprehenderit nostrum nemo consectetur culpa iusto ipsa sint dolore magnam ea velit illum harum incidunt repellendus. Omnis numquam amet earum?
           </p>
+          <div className=" grid grid-cols-2 items-center gap-4 mt-20">
+            <div className="border-4 border-primary-400 w-30 rounded-md"></div>
+            <div className="border-4 border-white w-30 rounded-md"></div>
+          </div>
         </div>
       </div>
     </div>

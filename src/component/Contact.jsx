@@ -39,12 +39,11 @@ const Contact = () => {
   };
 
   return (
-    <div className="p-10" id="contact">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 capitalize text-left">
+    <div className="grid  md:grid-cols-2 lg:ml-30 lg:mr-30 md:items-center " id="contact">
+      <div className=" capitalize text-left ">
         <div>
           <h3 className="text-primary-400 font-extrabold text-2xl">contact us</h3>
           <h2 className="text-4xl md:text-6xl font-extrabold p-4">say hello</h2>
-
           <div className="flex items-start gap-4 py-6 px-6">
             <TfiLocationPin className="text-white bg-primary-600 text-7xl p-4 rounded-full outline-3 outline-dotted outline-offset-4 outline-primary-400" />
             <div>
@@ -54,7 +53,7 @@ const Contact = () => {
           </div>
 
           <div className="flex items-start gap-4 py-6 px-6">
-            <MdOutlineMail className="text-white bg-primary-600 text-7xl p-4 rounded-full outline-3 outline-dotted outline-offset-4 outline-primary-400"/>
+            <MdOutlineMail className="text-white bg-primary-600 text-7xl  p-4 rounded-full outline-3 outline-dotted outline-offset-4 outline-primary-400"/>
 
             <div>
               <h2 className="text-2xl md:text-4xl capitalize">Email</h2>
@@ -64,7 +63,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Phone */}
           <div className="flex items-start gap-4 py-6 px-6">
             <MdOutlinePhoneInTalk className="text-white bg-primary-600 text-7xl p-4 rounded-full outline-3 outline-dotted outline-offset-4 outline-primary-400" />
             <div>
@@ -73,9 +71,8 @@ const Contact = () => {
             </div>
           </div>
         </div>
-
-        {/* Right Form Section */}
-        <div>
+      </div>
+        <div className='m-13'>
           <h3 className="text-primary-400 text-2xl">have a question?</h3>
           <h1 className="font-extrabold text-3xl md:text-4xl px-6 py-6">send a message</h1>
 
@@ -137,7 +134,6 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </div>
   );
 };
 
