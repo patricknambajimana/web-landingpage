@@ -79,7 +79,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* Mission Section */}
       <div className="relative text-center text-white mt-20">
         <img
           src="https://images.pexels.com/photos/8068652/pexels-photo-8068652.jpeg"
